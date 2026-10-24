@@ -4,92 +4,109 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Brian Powers - Resume</title>
-<meta name="description" content="Live resume: Python libraries on PyPI, Obsidian plugins, tooling and data analysis projects, with links to GitHub.">
+<meta name="description" content="Brian Powers: Johns Hopkins M.S. student in Data Analytics and Policy, public-benefits and survey-research experience, and author of Python libraries on PyPI.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&amp;family=Public+Sans:wght@400;500;600&amp;display=swap">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<main>
+<div class="wrap">
 <header>
 <h1>Brian Powers</h1>
-<p class="tag">Data analyst and policy researcher who builds software. Orange County, CA. English (native), Spanish (working proficiency).</p>
-<p><a href="https://github.com/112345brian">GitHub: 112345brian</a> &middot; <a href="https://pypi.org/user/112345brian/">PyPI: 112345brian</a></p>
+<p class="tag">Data and policy analyst who also ships software. Orange County, CA. English native, Spanish working proficiency.</p>
+<ul class="proof">
+<li><strong>Johns Hopkins M.S.</strong>Data Analytics and Policy, expected May 2027</li>
+<li><strong>HopHacks 2026, 1st place</strong>County-level analysis of who pays for data centers</li>
+<li><strong>Three PyPI libraries</strong>Process-safety tooling, plus a meta-package that installs them together</li>
+</ul>
+<p class="links"><a href="https://github.com/112345brian">GitHub</a><a href="https://pypi.org/user/112345brian/">PyPI</a></p>
+<nav aria-label="Sections"><ul>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#analysis">Analysis</a></li>
+<li><a href="#software">Software</a></li>
+<li><a href="#skills">Skills</a></li>
+</ul></nav>
 </header>
 
-<h2>Summary</h2>
-<p>Johns Hopkins M.S. student in Data Analytics and Policy with front-line public-benefits experience and research built on public data (R, Python, SQL). I also write and publish developer tooling: four PyPI libraries and a suite of Obsidian plugins.</p>
-
-<h2>Education</h2>
-<p><strong>M.S. Data Analytics and Policy</strong>, Johns Hopkins University. Expected May 2027.<br>
-<strong>B.A. Political Science, Philosophy</strong>, Cal Poly Pomona. August 2023.</p>
-
+<main>
+<section id="experience">
 <h2>Experience</h2>
-<p><strong>Data Entry Technician</strong>, County of Orange Social Services Agency. March 2024 to present.<br>
-Support 300+ Spanish-speaking clients across programs, help clients apply for CalFresh and Medi-Cal, and wrote process guides used by 15+ staff.</p>
-<p><strong>Research Assistant II</strong>, CSU Fullerton Social Science Research Center. June 2023 to April 2024.<br>
-Worked on surveys of up to 20,000 respondents, pretested survey items, and presented recommendations to project leads.</p>
-<p><strong>Legal Assistant</strong>, Law Offices of Ilan N. Rosen Janfaza. July to November 2022.<br>
-Reviewed and summarized large document sets and supported discovery and client intake.</p>
-<p><strong>Tutor</strong>, Mt. San Antonio College Writing Center. October 2021 to July 2023.<br>
-Gave writing instruction to 1,300+ students.</p>
+<div class="row"><div class="when">Mar 2024 to present</div><div class="what"><h3>Data Entry Technician</h3><p class="org">County of Orange Social Services Agency</p><p>Support 300+ Spanish-speaking clients across programs, help clients apply for CalFresh and Medi-Cal, and wrote process guides now used by 15+ staff.</p></div></div>
+<div class="row"><div class="when">Jun 2023 to Apr 2024</div><div class="what"><h3>Research Assistant II</h3><p class="org">CSU Fullerton Social Science Research Center</p><p>Worked on surveys of up to 20,000 respondents, stress-tested ambiguous survey items before fielding, and presented recommendations to project leads.</p></div></div>
+<div class="row"><div class="when">Jul to Nov 2022</div><div class="what"><h3>Legal Assistant</h3><p class="org">Law Offices of Ilan N. Rosen Janfaza</p><p>Reviewed and summarized large document sets and supported discovery and client intake.</p></div></div>
+<div class="row"><div class="when">Oct 2021 to Jul 2023</div><div class="what"><h3>Writing Tutor</h3><p class="org">Mt. San Antonio College Writing Center</p><p>Gave writing instruction to 1,300+ students.</p></div></div>
+</section>
 
-<h2>Research and analysis projects</h2>
-<div class="grid">
-<div class="card"><h3><a href="https://github.com/112345brian/2026-hackathon-data-center">Who Is Paying for Data Centers?</a></h3><p>HopHacks 2026, 1st place. State-fixed-effect OLS on about 3,090 matched counties, built from five public datasets (IM3, ACS, BEA, DOE LEAD, USDA). Data-center counties show higher incomes, home values and rents.</p></div>
-<div class="card"><h3><a href="https://github.com/112345brian/la-predictive-policing">LAPD Post-PredPol Policing Study</a></h3><p>R pipeline and Shiny/leaflet dashboard comparing arrest-to-crime ratios across eras by neighborhood racial composition, with a negative binomial GEE model.</p></div>
-<div class="card"><h3><a href="https://github.com/112345brian/walkability-commuting-obesity">Walkability, Commuting and Obesity</a></h3><p>Fixed-effects regression and mediation analysis across 364 U.S. metro areas, with an interactive dashboard and maps.</p></div>
-<div class="card"><h3><a href="https://github.com/112345brian/reddit-isolation-suicidality-analysis">Isolation Language and Suicidality on Reddit</a></h3><p>85,000+ posts across six subreddits; reproducible renv and Quarto pipeline.</p></div>
+<section id="education">
+<h2>Education</h2>
+<div class="row"><div class="when">Expected May 2027</div><div class="what"><h3>M.S. Data Analytics and Policy</h3><p class="org">Johns Hopkins University</p></div></div>
+<div class="row"><div class="when">August 2023</div><div class="what"><h3>B.A. Political Science and Philosophy</h3><p class="org">Cal Poly Pomona</p><p>Senior thesis on informed consent and paternalism in public bioethics.</p></div></div>
+</section>
+
+<section id="analysis">
+<h2>Analysis</h2>
+<div class="row"><div class="when">April 2026</div><div class="what"><h3>Who Is Paying for Data Centers?</h3><p>HopHacks 2026, 1st place. State-fixed-effect regressions across about 3,090 matched counties, built from five public datasets (IM3, ACS, BEA, DOE LEAD, USDA). Counties with data centers show higher median incomes, home values and rents.</p><a class="win" href="https://github.com/112345brian/2026-hackathon-data-center">Code on GitHub</a></div></div>
+<div class="row"><div class="when">2026</div><div class="what"><h3>Policing After PredPol in Los Angeles</h3><p>R pipeline and Shiny dashboard comparing arrest-to-crime ratios before and after LAPD changed programs, with a negative binomial GEE model. Enforcement fell overall, but least in majority Black and Latino tracts.</p><a class="win" href="https://github.com/112345brian/la-predictive-policing">Code on GitHub</a></div></div>
+<div class="row"><div class="when">February 2026</div><div class="what"><h3>Walkability, Commuting and Obesity</h3><p>Fixed-effects regression and mediation analysis across 364 U.S. metro areas: about 26% of the walkability-obesity link runs through walking to work.</p><a class="win" href="https://github.com/112345brian/walkability-commuting-obesity">Code on GitHub</a></div></div>
+<div class="row"><div class="when">December 2025</div><div class="what"><h3>Isolation Language and Suicidality on Reddit</h3><p>85,000+ posts across six subreddits, with a reproducible renv and Quarto pipeline. No independent association after adjustment.</p><a class="win" href="https://github.com/112345brian/reddit-isolation-suicidality-analysis">Code on GitHub</a></div></div>
+</section>
+
+<section id="software">
+<h2>Software</h2>
+<div class="stack">
+<div class="what"><h3>launch-runner: safe process execution for Python</h3>
+<p>A family of libraries built as ports and adapters, so code that asks for a process never depends on how it starts. Every operation returns an explicit result instead of raising, never flashes a Windows console window, and kills the whole process tree on timeout. <code>commandport</code> ships a scan that fails the build when code bypasses <code>subprocess</code>.</p>
+<ul class="pkgs">
+<li><a href="https://pypi.org/project/commandport/">commandport</a></li>
+<li><a href="https://pypi.org/project/lifecycle-runner/">lifecycle-runner</a></li>
+<li><a href="https://pypi.org/project/proclaunch/">proclaunch</a></li>
+<li><a href="https://pypi.org/project/launch-runner/">launch-runner (meta-package)</a></li>
+<li><a href="https://github.com/112345brian/launch-runner">Source on GitHub</a></li>
+</ul></div>
+<div class="what"><h3>Obsidian plugins</h3>
+<p>A suite of TypeScript plugins for note-taking workflows, including redirects and disambiguation, heading navigation, and list formatting that keeps git diffs clean.</p>
+<ul class="pkgs">
+<li><a href="https://github.com/112345brian/obsidian-redirects">obsidian-redirects</a></li>
+<li><a href="https://github.com/112345brian/return-headings">return-headings</a></li>
+<li><a href="https://github.com/112345brian/obsidian-diff-list">obsidian-diff-list</a></li>
+</ul></div>
+<div class="what"><h3>semantic-diff</h3>
+<p>A VS Code extension for prose that diffs and stages changes by clause instead of by line.</p>
+<ul class="pkgs"><li><a href="https://github.com/112345brian/semantic-diff">Source on GitHub</a></li></ul></div>
+<div class="what"><h3>knowledge</h3>
+<p>A personal SQLite knowledge base with a numbered ingest pipeline and a command-line interface.</p>
+<ul class="pkgs"><li><a href="https://github.com/112345brian/knowledge">Source on GitHub</a></li></ul></div>
 </div>
-<p>Also: a tract-level NYC study of housing code violations and evictions, a General Social Survey analysis of traditionalism and abortion attitudes, and a senior philosophy thesis on public bioethics.</p>
+</section>
 
-<h2>Portfolio (work/portfolio)</h2>
-<p>My employer-facing portfolio is organized into five folders. The files themselves are not published here, but the public repositories above hold the code for the main projects.</p>
-<div class="grid">
-<div class="card"><h3>research-notes</h3><p>Standalone reproducible analyses in R and Quarto: Reddit isolation and suicidality (JHU AS.681) and sex, traditionalism and abortion attitudes in the 2022 GSS (JHU AS.768).</p></div>
-<div class="card"><h3>projects</h3><p>Multi-file pipelines: data centers and energy burden (hackathon) and walkability, active commuting and obesity (JHU AS.673 Data Visualization).</p></div>
-<div class="card"><h3>coursework</h3><p>Quarto problem sets from Introduction to Data Analytics and Policy (AS.681) and Programming and Data Management (AS.768): R, tidyverse and Python.</p></div>
-<div class="card"><h3>writing-samples</h3><p>A policy writing sample, a McNair Scholars research report (CSUF, 2023) and a rent burden and property crime study in Philadelphia.</p></div>
-<div class="card"><h3>code-samples</h3><p>A code sample prepared for a state attorney general's office application.</p></div>
-</div>
-
+<section id="skills">
 <h2>Skills</h2>
-<p><strong>Tools:</strong> R, tidyverse, tidycensus, sf, leaflet, Shiny, Quarto, renv, Python, SQL, Excel, Tableau, Git.<br>
-<strong>Methods:</strong> OLS and fixed effects, mediation analysis, survey design and pretesting, public-data API pipelines, spatial mapping, reproducible research.<br>
-<strong>Domains:</strong> housing and eviction, energy economics, inequality, urban and regulatory policy, social services.</p>
+<dl>
+<dt>Tools</dt><dd>R (tidyverse, tidycensus, sf, Shiny, Quarto, renv), Python, SQL, Excel, Tableau, Git</dd>
+<dt>Methods</dt><dd>OLS and fixed effects, mediation analysis, survey design and pretesting, public-data API pipelines, spatial mapping, reproducible research</dd>
+<dt>Domains</dt><dd>Housing and eviction, energy economics, inequality, urban and regulatory policy, social services</dd>
+</dl>
+</section>
 
-<h2>Featured: process-safety libraries on PyPI</h2>
-<p>A family of four PyPI packages, developed in one monorepo, <a href="https://github.com/112345brian/launch-runner">launch-runner</a>. They are built as ports and adapters, so code that asks for a process never depends on how it is started. Every operation returns an explicit result instead of raising, never flashes a Windows console window, decodes UTF-8, closes stdin unless text is supplied, and kills the whole process tree on timeout.</p>
-<div class="grid">
-<div class="card"><h3><a href="https://pypi.org/project/commandport/">commandport</a></h3><p>The contract: spec and result types, ports, in-memory fakes, and a scan (<code>python -m commandport.scan</code>) that fails the build when code bypasses <code>subprocess</code>. No dependencies.</p></div>
-<div class="card"><h3><a href="https://pypi.org/project/lifecycle-runner/">lifecycle-runner</a></h3><p>Run a command to completion with a time limit: capture it, stream it, or log it. Explicit results, never raises.</p></div>
-<div class="card"><h3><a href="https://pypi.org/project/proclaunch/">proclaunch</a></h3><p>Start, stop and supervise long-running background processes with identity-checked records and readiness probes.</p></div>
-<div class="card"><h3><a href="https://pypi.org/project/launch-runner/">launch-runner</a></h3><p>Meta-package that installs all three at matching versions.</p></div>
-</div>
-<pre>pip install launch-runner</pre>
-
-<h2>Obsidian plugins</h2>
-<p>A suite of TypeScript plugins for knowledge-work workflows, plus an <a href="https://github.com/112345brian/bripeys-extremely-opinionated-plugin-suite">opinionated plugin suite</a> that ties them together.</p>
-<div class="grid" id="obsidian"></div>
-
-<h2>Tools and applications</h2>
-<div class="grid" id="tools"></div>
-
-<h2>Data analysis (R)</h2>
-<div class="grid" id="data"></div>
-
-<h2>Modern redesigns</h2>
-<div class="grid" id="redesigns"></div>
-
-<h2>Open-source forks and customizations</h2>
-<p>Forks I have adapted for my own workflows:
-<a href="https://github.com/112345brian/qmd-as-md-obsidian">qmd-as-md-obsidian</a>,
-<a href="https://github.com/112345brian/obsidian-beyond-sembr">obsidian-beyond-sembr</a>,
-<a href="https://github.com/112345brian/sync-embeds">sync-embeds</a>,
-<a href="https://github.com/112345brian/breadbake">breadbake</a>,
-<a href="https://github.com/112345brian/zotero-reading-list">zotero-reading-list</a>,
-<a href="https://github.com/112345brian/Zen-Tidy-Tabs-aree6">Zen-Tidy-Tabs-aree6</a>.</p>
-
-<footer>All repositories: <a href="https://github.com/112345brian?tab=repositories">github.com/112345brian</a>. Source of this page: <a href="https://github.com/112345brian/bp-resume">bp-resume</a>.</footer>
+<section id="more">
+<details>
+<summary>More on GitHub</summary>
+<ul class="more">
+<li><a href="https://github.com/112345brian/ethics-demonstrated-in-hyperlink-order">ethics-demonstrated-in-hyperlink-order</a></li>
+<li><a href="https://github.com/112345brian/zotero-zotflow-autosync">zotero-zotflow-autosync</a></li>
+<li><a href="https://github.com/112345brian/bripeys-extremely-opinionated-plugin-suite">opinionated Obsidian plugin suite</a></li>
+<li><a href="https://github.com/112345brian/data-analyst-job-ranking">data-analyst-job-ranking</a></li>
+<li><a href="https://github.com/112345brian/rate-your-music-modern">rate-your-music-modern</a></li>
+<li><a href="https://github.com/112345brian/stanford-encyclopedia-modern">stanford-encyclopedia-modern</a></li>
+<li><a href="https://github.com/112345brian?tab=repositories">All repositories</a></li>
+</ul>
+</details>
+</section>
 </main>
-<script src="projects.js"></script>
+
+<footer>Source for this page: <a href="https://github.com/112345brian/bp-resume">bp-resume</a>.</footer>
+</div>
 </body>
 </html>
