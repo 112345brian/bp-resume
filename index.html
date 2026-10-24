@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Brian Powers - Resume</title>
+<meta name="description" content="Live resume: Python libraries on PyPI, Obsidian plugins, tooling and data analysis projects, with links to GitHub.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header>
+<h1>Brian Powers</h1>
+<p class="tag">Software developer and data analyst. Python, TypeScript, R. Builds careful tools for processes, notes and data.</p>
+<p><a href="https://github.com/112345brian">GitHub: 112345brian</a> &middot; <a href="https://pypi.org/user/112345brian/">PyPI: 112345brian</a></p>
+</header>
+
+<h2>Featured: process-safety libraries on PyPI</h2>
+<p>A family of four PyPI packages, developed in one monorepo, <a href="https://github.com/112345brian/launch-runner">launch-runner</a>. They are built as ports and adapters, so code that asks for a process never depends on how it is started. Every operation returns an explicit result instead of raising, never flashes a Windows console window, decodes UTF-8, closes stdin unless text is supplied, and kills the whole process tree on timeout.</p>
+<div class="grid">
+<div class="card"><h3><a href="https://pypi.org/project/commandport/">commandport</a></h3><p>The contract: spec and result types, ports, in-memory fakes, and a scan (<code>python -m commandport.scan</code>) that fails the build when code bypasses <code>subprocess</code>. No dependencies.</p></div>
+<div class="card"><h3><a href="https://pypi.org/project/lifecycle-runner/">lifecycle-runner</a></h3><p>Run a command to completion with a time limit: capture it, stream it, or log it. Explicit results, never raises.</p></div>
+<div class="card"><h3><a href="https://pypi.org/project/proclaunch/">proclaunch</a></h3><p>Start, stop and supervise long-running background processes with identity-checked records and readiness probes.</p></div>
+<div class="card"><h3><a href="https://pypi.org/project/launch-runner/">launch-runner</a></h3><p>Meta-package that installs all three at matching versions.</p></div>
+</div>
+<pre>pip install launch-runner</pre>
+
+<h2>Obsidian plugins</h2>
+<p>A suite of TypeScript plugins for knowledge-work workflows, plus an <a href="https://github.com/112345brian/bripeys-extremely-opinionated-plugin-suite">opinionated plugin suite</a> that ties them together.</p>
+<div class="grid" id="obsidian"></div>
+
+<h2>Tools and applications</h2>
+<div class="grid" id="tools"></div>
+
+<h2>Data analysis (R)</h2>
+<div class="grid" id="data"></div>
+
+<h2>Modern redesigns</h2>
+<div class="grid" id="redesigns"></div>
+
+<h2>Open-source forks and customizations</h2>
+<p>Forks I have adapted for my own workflows:
+<a href="https://github.com/112345brian/qmd-as-md-obsidian">qmd-as-md-obsidian</a>,
+<a href="https://github.com/112345brian/obsidian-beyond-sembr">obsidian-beyond-sembr</a>,
+<a href="https://github.com/112345brian/sync-embeds">sync-embeds</a>,
+<a href="https://github.com/112345brian/breadbake">breadbake</a>,
+<a href="https://github.com/112345brian/zotero-reading-list">zotero-reading-list</a>,
+<a href="https://github.com/112345brian/Zen-Tidy-Tabs-aree6">Zen-Tidy-Tabs-aree6</a>.</p>
+
+<footer>All repositories: <a href="https://github.com/112345brian?tab=repositories">github.com/112345brian</a>. Source of this page: <a href="https://github.com/112345brian/bp-resume">bp-resume</a>.</footer>
+</main>
+<script src="projects.js"></script>
+</body>
+</html>
